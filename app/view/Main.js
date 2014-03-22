@@ -12,6 +12,7 @@ Ext.define('HomeworkFour.view.Main', {
             {
                 title: 'Welcome',
                 iconCls: 'home',
+                cls: 'home',
 
                 styleHtmlContent: true,
                 scrollable: true,
@@ -19,31 +20,52 @@ Ext.define('HomeworkFour.view.Main', {
                 items: {
                     docked: 'top',
                     xtype: 'titlebar',
-                    title: 'Welcome to Sencha Touch 2'
+                    title: 'Welcome to Homework #4'
                 },
 
                 html: [
-                    "You've just generated a new Sencha Touch 2 project. What you're looking at right now is the ",
-                    "contents of <a target='_blank' href=\"app/view/Main.js\">app/view/Main.js</a> - edit that file ",
-                    "and refresh to change what's rendered here."
+                    "This is just a bare minimum app to get things started.",
+                    '<hr />',
+                    '<img src=http://it.siciliando.com/wp-content/uploads/sites/2/2014/02/logo-freigestellt_100px1.jpg />'
                 ].join("")
             },
             {
-                title: 'Get Started',
+                title: 'View Demo',
                 iconCls: 'action',
 
                 items: [
                     {
                         docked: 'top',
                         xtype: 'titlebar',
-                        title: 'Getting Started'
+                        title: 'View from the balcony'
                     },
                     {
                         xtype: 'video',
-                        url: 'http://av.vimeo.com/64284/137/87347327.mp4?token=1330978144_f9b698fea38cd408d52a2393240c896c',
-                        posterUrl: 'http://b.vimeocdn.com/ts/261/062/261062119_640.jpg'
+                        url: 'http://thomasgoerblich02.cloudcontrolled.com/media/where_i_live_284x160.ogv',
+                        url: 'http://thomasgoerblich02.cloudcontrolled.com/media/where_i_live_284x160.mp4',
+                        posterUrl: 'http://thomasgoerblich02.cloudcontrolled.com/media/where_i_live_284x160.jpg'
                     }
                 ]
+            },
+            {
+                xtype: 'carousel',
+                title: 'Rooms',
+                iconCls: 'star',
+
+                items: [
+                    {
+                        xtype: 'image',
+                        src: 'http://it.siciliando.com/wp-content/uploads/sites/2/2014/03/stanza02.2-800x600ss.jpg'
+                    },
+                    {
+                        xtype: 'image',
+                        src: 'http://it.siciliando.com/wp-content/uploads/sites/2/2014/03/stanza03-800x450ss.jpg'
+                    },
+                    {
+                        xtype: 'image',
+                        src: 'http://it.siciliando.com/wp-content/uploads/sites/2/2014/03/stanza06.2-800x450ss.jpg'
+                    }
+                 ]    
             },
             {
                 title: 'Search',

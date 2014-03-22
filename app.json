@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {"id":"ecc3418c-8477-4b71-bea3-8a9a99149a75","js":[{"path":"app.js","update":"delta","version":"dd615006cd705d0c0f9d40569fbd4b5f392cfa14"}],"css":[{"path":"resources/css/app.css","update":"delta","version":"faf42bb4addf21258bc1334dcf5660fddf0f393f"}]}
 =======
+=======
+>>>>>>> origin/master
 {
     /**
      * The application's namespace, used by Sencha Command to generate classes
@@ -136,4 +139,10 @@
      */
     "id": "ecc3418c-8477-4b71-bea3-8a9a99149a75"
 }
+<<<<<<< HEAD
 >>>>>>> 4f2816bc18a0c0f8351af476e9cf016c87532fa5
+=======
+=======
+{"id":"ecc3418c-8477-4b71-bea3-8a9a99149a75","js":[{"path":"app.js","update":"delta","version":"dd615006cd705d0c0f9d40569fbd4b5f392cfa14"}],"css":[{"path":"resources/css/app.css","update":"delta","version":"faf42bb4addf21258bc1334dcf5660fddf0f393f"}]}
+>>>>>>> cb197fdce2ebe4b65faaf2b5c2170980277930a4
+>>>>>>> origin/master
